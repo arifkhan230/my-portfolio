@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Container from "../../Components/Container/Container";
 import Title from "../../Components/Title/Title";
 import { FaPhoneSquareAlt } from "react-icons/fa";
@@ -6,9 +7,9 @@ import { MdEmail } from "react-icons/md";
 
 const About = () => {
     return (
-        <div>
+        <div className="my-10">
             <Container>
-                <Title> <h1 className="text-3xl">About me</h1></Title>
+                {/* <Title> <h1 className="text-3xl">About me</h1></Title> */}
                 <div className="flex flex-col md:flex-row gap-6 border">
                     <div className="flex-1 px-4 p-10">
                         <h2 className="text-2xl font-bold text-center my-6">About Me </h2>
