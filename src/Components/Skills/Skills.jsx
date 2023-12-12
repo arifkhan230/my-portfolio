@@ -109,7 +109,7 @@ const Skills = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title text-2xl font-bold mb-4">Tailwind</h2>
-                            <ProgressBar width={200}  completed={80} maxCompleted={100} />
+                            <ProgressBar width={200}  completed={90} maxCompleted={100} />
                             {/* <div className="card-actions">
                                 <button className="btn btn-primary">Buy Now</button>
                             </div> */}
